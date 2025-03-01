@@ -1,3 +1,14 @@
 h1 {
     text-align: center;
 }
+
+.codegirl-image {
+    display: block;
+    max-width: 100%;
+    width: 300px; /* Adjust width as needed */
+    height: auto;
+    margin: 20px auto; /* Centers the image */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
